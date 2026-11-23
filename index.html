@@ -47,13 +47,13 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <h2>Informativa sulla privacy</h2>
 <p class="meta">In vigore dal 23 novembre 2026 (versione precedente: 18 ottobre 2026)</p>
 
-<div class="summary"><p><strong>In breve:</strong> Kurt non raccoglie, non conserva e non condivide alcun dato personale. Non ci sono account, pubblicità, statistiche d'uso o tracciamento. I tuoi documenti e le tue foto restano sul tuo telefono.</p></div>
+<div class="summary"><p><strong>In breve:</strong> Kurt non raccoglie, non conserva e non condivide alcun dato personale. Non ci sono account, pubblicità, statistiche d'uso o tracciamento. I tuoi documenti e le tue foto restano sul tuo telefono. Due eccezioni: (1) in Kurt Photo, solo se la usi: gli strumenti a crediti (punto 4), che elaborano la foto online e non la salvano; (2) in Kurt PDF, solo se acconsenti: per controllare se il certificato di una firma è stato revocato, Kurt invia al prestatore solo il numero del certificato, mai il documento.</p></div>
 
 <h3>1. Titolare</h3>
 <p>Le app Kurt PDF e Kurt Photo ("Kurt") sono pubblicate su Google Play dallo sviluppatore <strong>kythealabs</strong> (Italia). Contatto: <a href="mailto:kythealabs@gmail.com">kythealabs@gmail.com</a>.</p>
 
 <h3>2. Dati che trattiamo</h3>
-<p>Nessuno. Lo sviluppatore non ha server propri, Kurt non richiede la creazione di un account e non contiene librerie di analisi, pubblicità, segnalazione degli arresti anomali o telemetria. Lo sviluppatore non riceve informazioni su di te, sui tuoi documenti o su come usi l'app.</p>
+<p>Nessuno, salvo gli strumenti a crediti di Kurt Photo se li usi (punto 4). Kurt non ha server per i tuoi documenti e le tue foto, non richiede la creazione di un account e non contiene librerie di analisi, pubblicità, segnalazione degli arresti anomali o telemetria. Lo sviluppatore non riceve informazioni su di te, sui tuoi documenti o su come usi l'app.</p>
 
 <h3>3. Cosa resta sul tuo telefono</h3>
 <p>Tutto il lavoro avviene sul dispositivo, nello spazio privato dell'app:</p>
@@ -70,9 +70,12 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <table>
 <thead><tr><th>Quando</th><th>Servizio</th><th>Cosa avviene</th></tr></thead>
 <tbody>
-<tr><td>Acquisto o ripristino di Kurt Pro</td><td>Google Play</td><td>Il pagamento è gestito interamente da Google, secondo la sua informativa sulla privacy. Lo sviluppatore riceve da Google solo le informazioni sull'ordine necessarie a confermare l'acquisto e non vede i tuoi dati di pagamento.</td></tr>
+<tr><td>Acquisto o ripristino di Kurt Pro, dei crediti o dell'abbonamento</td><td>Google Play</td><td>Il pagamento è gestito interamente da Google, secondo la sua informativa sulla privacy. Lo sviluppatore riceve da Google solo le informazioni sull'ordine necessarie a confermare l'acquisto e non vede i tuoi dati di pagamento.</td></tr>
+<tr><td>Solo in Kurt Photo, dopo l'acquisto di Pro: download dei modelli AI</td><td>Google Play</td><td>I file dei modelli sono consegnati da Google Play, come ogni componente dell'app, e controllati con un'impronta crittografica prima dell'uso. Come per ogni download da Google Play, il servizio tratta i dati tecnici della connessione secondo la sua informativa.</td></tr>
+<tr><td>Richiesta di recensione nell'app</td><td>Google Play (Play In-App Review)</td><td>La finestra per lasciare una recensione è gestita interamente da Google Play; non viene inviato alcun dato a noi.</td></tr>
 <tr><td>Dopo l'acquisto di Pro: download del modello AI</td><td>Hugging Face</td><td>Download di un file pubblico. Come ogni sito web, il servizio riceve dati tecnici della connessione, come l'indirizzo IP, trattati secondo la sua informativa.</td></tr>
 <tr><td>Dopo l'acquisto di Pro: download delle lingue per l'OCR</td><td>GitHub</td><td>Download di file pubblici, con le stesse modalità.</td></tr>
+<tr><td>Solo in Kurt Photo, se usi uno strumento a crediti (modifica generativa)</td><td>Google (Vertex AI), tramite un server dello sviluppatore</td><td>Per fare la modifica, una copia ridotta della foto e il testo che scrivi vengono inviati online ed elaborati da Google, fornitore del modello. Non li salviamo e non vengono usati per addestrare i modelli. L'elaborazione può avvenire fuori dallo Spazio economico europeo: il trasferimento è coperto dalle clausole contrattuali standard e dalle altre garanzie previste dal GDPR. Il testo che scrivi viene prima controllato da un modello di Google per bloccare le richieste vietate. Il server dello sviluppatore conserva solo un identificativo casuale anonimo (nessun account), il saldo dei crediti e un registro delle richieste (data, dimensione, esito), senza foto né testi; il registro delle richieste è cancellato dopo 90 giorni. Le immagini create sono marcate come create con l'AI.</td></tr>
 <tr><td>Solo se acconsenti: controllo della revoca di una firma digitale</td><td>Il prestatore che ha emesso il certificato del firmatario, all'indirizzo scritto nel certificato</td><td>Kurt chiede se il certificato è stato revocato. La richiesta contiene solo il numero del certificato, mai il documento, e può non essere cifrata (HTTPS se il prestatore lo offre). La risposta è firmata dal prestatore. Come per ogni connessione, il prestatore vede l'indirizzo IP del telefono. Puoi cambiare scelta in Impostazioni.</td></tr>
 </tbody>
 </table>
@@ -95,7 +98,7 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <p>I file scaricati dopo l'acquisto (modello AI e lingue OCR) provengono solo da indirizzi prestabiliti e vengono controllati con un'impronta crittografica prima dell'uso. Gli acquisti vengono verificati sul telefono con la firma digitale di Google Play.</p>
 
 <h3>8. I tuoi diritti</h3>
-<p>Poiché lo sviluppatore non tratta dati personali che ti riguardano, non ci sono dati da consultare, correggere o cancellare presso di noi. Per i dati trattati da Google Play nell'acquisto puoi rivolgerti a Google. Per qualsiasi domanda puoi scriverci all'indirizzo indicato al punto 1. Hai comunque il diritto di proporre reclamo al Garante per la protezione dei dati personali.</p>
+<p>Poiché lo sviluppatore non tratta dati personali che ti riguardano, non ci sono dati da consultare, correggere o cancellare presso di noi. Per i dati trattati da Google Play nell'acquisto puoi rivolgerti a Google. In Kurt Photo puoi chiedere la cancellazione dell'identificativo anonimo e del saldo dei crediti scrivendo all'indirizzo del punto 1 e indicando il codice di recupero. Per qualsiasi domanda puoi scriverci all'indirizzo indicato al punto 1. Hai comunque il diritto di proporre reclamo al Garante per la protezione dei dati personali.</p>
 
 <h3>9. Modifiche</h3>
 <p>Se questa informativa cambierà, la versione aggiornata sarà pubblicata su questa pagina con la nuova data di entrata in vigore. Una modifica che introducesse una raccolta di dati verrebbe comunicata nell'app prima di avere effetto.</p>
@@ -105,13 +108,13 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <h2>Privacy policy</h2>
 <p class="meta">Effective November 23, 2026 (previous version: October 18, 2026)</p>
 
-<div class="summary"><p><strong>In short:</strong> Kurt does not collect, store or share any personal data. There are no accounts, ads, usage statistics or tracking. Your documents and photos stay on your phone.</p></div>
+<div class="summary"><p><strong>In short:</strong> Kurt does not collect, store or share any personal data. There are no accounts, ads, usage statistics or tracking. Your documents and photos stay on your phone. Two exceptions: (1) in Kurt Photo, only if you use it: the credit tools (section 4), which process the photo online and do not save it; (2) in Kurt PDF, only if you agree: to check whether the certificate of a signature has been revoked, Kurt sends the provider only the certificate number, never the document.</p></div>
 
 <h3>1. Who we are</h3>
 <p>The Kurt PDF and Kurt Photo apps ("Kurt") are published on Google Play by the developer <strong>kythealabs</strong> (Italy). Contact: <a href="mailto:kythealabs@gmail.com">kythealabs@gmail.com</a>.</p>
 
 <h3>2. Data we process</h3>
-<p>None. The developer runs no servers of its own, Kurt requires no account, and contains no analytics, advertising, crash reporting or telemetry libraries. The developer receives no information about you, your documents or how you use the app.</p>
+<p>None, except the credit tools of Kurt Photo if you use them (section 4). Kurt has no servers for your documents and photos, requires no account, and contains no analytics, advertising, crash reporting or telemetry libraries. The developer receives no information about you, your documents or how you use the app.</p>
 
 <h3>3. What stays on your phone</h3>
 <p>All work happens on the device, in the app's private storage:</p>
@@ -128,9 +131,12 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <table>
 <thead><tr><th>When</th><th>Service</th><th>What happens</th></tr></thead>
 <tbody>
-<tr><td>Buying or restoring Kurt Pro</td><td>Google Play</td><td>Payment is handled entirely by Google under its privacy policy. The developer receives from Google only the order information needed to confirm the purchase and never sees your payment details.</td></tr>
+<tr><td>Buying or restoring Kurt Pro, credits or the subscription</td><td>Google Play</td><td>Payment is handled entirely by Google under its privacy policy. The developer receives from Google only the order information needed to confirm the purchase and never sees your payment details.</td></tr>
+<tr><td>Kurt Photo only, after buying Pro: AI model downloads</td><td>Google Play</td><td>The model files are delivered by Google Play, like any component of the app, and checked against a cryptographic fingerprint before use. As with any Google Play download, the service handles technical connection data under its own privacy policy.</td></tr>
+<tr><td>Review request inside the app</td><td>Google Play (Play In-App Review)</td><td>The window for leaving a review is handled entirely by Google Play; no data is sent to us.</td></tr>
 <tr><td>After buying Pro: AI model download</td><td>Hugging Face</td><td>Download of a public file. Like any website, the service receives technical connection data such as your IP address, handled under its own privacy policy.</td></tr>
 <tr><td>After buying Pro: OCR language download</td><td>GitHub</td><td>Download of public files, in the same way.</td></tr>
+<tr><td>Kurt Photo only, if you use a credit tool (generative edit)</td><td>Google (Vertex AI), through a server of the developer</td><td>To make the edit, a reduced copy of the photo and the text you write are sent online and processed by Google, the provider of the model. We do not store them and they are not used to train models. Processing may take place outside the European Economic Area: the transfer is covered by standard contractual clauses and the other safeguards required by the GDPR. The text you write is first checked by a Google model to block forbidden requests. The developer's server keeps only a random anonymous identifier (no account), the credit balance and a log of requests (date, size, outcome), with no photos or texts; the request log is deleted after 90 days. Created images are marked as made with AI.</td></tr>
 <tr><td>Only if you agree: revocation check of a digital signature</td><td>The provider that issued the signer's certificate, at the address written in the certificate</td><td>Kurt asks whether the certificate has been revoked. The request contains only the certificate number, never the document, and may be unencrypted (HTTPS when the provider offers it). The reply is signed by the provider. As with any connection, the provider sees the phone's IP address. You can change your choice in Settings.</td></tr>
 </tbody>
 </table>
@@ -153,7 +159,7 @@ footer{color:var(--muted);font-size:14px;text-align:center;margin-top:32px}
 <p>Files downloaded after purchase (AI model and OCR languages) come only from predefined addresses and are checked against a cryptographic fingerprint before use. Purchases are verified on the phone using Google Play's digital signature.</p>
 
 <h3>8. Your rights</h3>
-<p>Since the developer does not process any personal data about you, there is no data held by us to access, correct or delete. For data processed by Google Play during a purchase, please contact Google. For any question, write to the address in section 1. You also have the right to lodge a complaint with your data protection authority (in Italy, the Garante per la protezione dei dati personali).</p>
+<p>Since the developer does not process any personal data about you, there is no data held by us to access, correct or delete. For data processed by Google Play during a purchase, please contact Google. In Kurt Photo you can ask for the anonymous identifier and the credit balance to be deleted by writing to the address in section 1 and giving your recovery code. For any question, write to the address in section 1. You also have the right to lodge a complaint with your data protection authority (in Italy, the Garante per la protezione dei dati personali).</p>
 
 <h3>9. Changes</h3>
 <p>If this policy changes, the updated version will be published on this page with a new effective date. Any change introducing data collection would be announced in the app before taking effect.</p>
